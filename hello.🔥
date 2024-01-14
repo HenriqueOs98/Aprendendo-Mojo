@@ -1,0 +1,26 @@
+def do_math(owned x):
+    var y = x +x # y e mutavel
+
+    y = y * y
+
+    let z = y + x #z e imutavel
+
+fn add_one(x: Int) -> NoneType:
+    let adicional: Int = 10
+    print(adicional + x)
+
+def main():
+    print_line()
+
+def print_line():
+    long_text = "This is a long line of text that is a lot easier to read if"
+                " it is broken up across two lines instead of one long line."
+    print(long_text)
+
+fn print(x: String):
+    """Prints a string.
+
+    Args:
+        x: The string to print.
+    """
+    ...
